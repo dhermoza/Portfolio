@@ -13,7 +13,7 @@ h2 {
 
 #intro {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 #intro > h1 {
@@ -40,6 +40,7 @@ h2 {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 20px;
 }
 
 
@@ -59,6 +60,9 @@ h2 {
   /* For a screen < 540px, this CSS will be read */
   .container {
     width: 400px;
+  }
+  #intro > h1 {
+    font-size: 80px;
   }
 }
 

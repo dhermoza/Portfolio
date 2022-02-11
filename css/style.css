@@ -1,0 +1,208 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #ffffff;;
+  color: #262521;
+  font-weight: normal;
+  font-size: 40px;
+}
+
+h1, h2, .skills-list  {
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  background-color: #DBEBF4;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 25px;
+}
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+header {
+  top: 110px;
+  position: relative;
+  margin-bottom: 220px;
+  background-image: url('../img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -190px;
+}
+
+h1 {
+  padding-top:100px;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 120%;
+}
+
+.skills-list {
+  text-align: center;
+}
+
+.skills-list li {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+ul li {
+  list-style: none;
+  margin: 10px 0;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.button {
+  border-radius: 50px ;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 25px;
+}
+.button:hover {
+  font-weight: bold;
+  color: black;
+  background-color: #DBEBF4;
+  border: 1px solid white;
+}
+
+figcaption {
+  font-size:10px;
+}
+
+.intro-img {
+  box-shadow: 1px 2px 30px rgba(0,0,0,0.2);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section p {
+  margin-left: 40px;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: 25px;
+}
+
+footer {
+  padding-top:10px;
+  text-align: center;
+}
+
+.skills {
+  padding-bottom: 20px;
+}
+
+.projects {
+  padding-bottom: 50px;
+}
+.projects h3 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 130%;
+}
+
+.projects a {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 130%;
+}
+
+.projects p {
+  line-height: 150%;
+}
+
+#intro {
+  display: flex;
+  justify-content: center;
+}
+
+#intro > h1 {
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.space {
+  padding-left: 50px;
+}
+
+#lista {
+  display: flex;
+  padding: 0px 20px;
+  padding-left: 0px;
+  justify-content: center;
+}
+
+#lista > li {
+  list-style-type: none;
+  padding-left:50px;
+}
+
+/*
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+  #intro > h1 {
+    font-size: 200px;
+  }
+}
+
+a {
+  color: #596E79;
+}

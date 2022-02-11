@@ -17,12 +17,12 @@
 <body>
   <nav>
     <ul>
-      <li>Contact</li>
-      <li>Projects</li>
-      <li>Experience</li>
-      <li>Education</li>
-      <li>Github</li>
-      <li>Linkedin</li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="https://github.com/dhermoza" target="_blank">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/denise-hermoza/" target="_blank">Linkedin</a></li>
     </ul>
   </nav>
     <header>
@@ -51,7 +51,7 @@
     </header>
     <!--education-->
 
-    <section class="section">
+    <section id="education" class="section">
       <div class="container">
         <h2>Education</h2>
         <p><strong>Web Development Bootcamp</strong> @ Le Wagon Lima <i>08/2021 - 10/2021</i></p>
@@ -60,7 +60,7 @@
     </section>
 
     <!--work experience-->
-    <section class="section">
+    <section id="experience" class="section">
       <div class="container">
       <h2>Work Experience</h2>
         <p><strong>Executive Associate</strong> @ Telefónica del Perú <i>03/2017 - 08/2021</i></p>
@@ -70,29 +70,38 @@
       </div>
     </section>
     <!--skills-->
-    <section id="skills">
+    <section id="skills" class="section">
       <div class="container">
         <h2>Skills and Tools</h2>
-        <div>
+        <div class="row">
+          <div class="col-sm">
             <ul class="skills-list">
               <li>01_Ruby</li>
               <li>02_Rails</li>
               <li>03_SQL</li>
               <li>04_HTML5</li>
               <li>05_CSS3</li>
+            </ul>
+          </div>
+
+          <div class="col-sm">
+            <ul class="skills-list">
               <li>06_Git</li>
               <li>07_Javascript</li>
               <li>08_Linux</li>
               <li>09_React</li>
+              <li>10_Azure Fundamentals</li>
             </ul>
           </div>
         </div>
     </section>
     <!--project 1-->
     <!--<h2>Projects</h2>-->
-      <section class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+    </div>
+      <section class="projects blue" id="projects">
         <div class="container">
-          <h2>Projects</h2>
           <div class="row">
             <div class="col-sm">
               <figure>
@@ -108,21 +117,15 @@
                 We Find Pets is a web app that helps you find your
                 lost pet and help other pets find their way home.
               </p>
-              <a href="http://www.wefindpets.online/"> Read More</a>
+              <a class="button" href="http://www.wefindpets.online/"> Read More</a>
             </div>
           </div>
         </div>
       </section>
     <!--project 2-->
-      <section class="projects middle">
+      <section class="projects right-allignment">
         <div class="container">
           <div class="row">
-            <div class="col-sm">
-              <figure>
-                <img src="https://res.cloudinary.com/dswechkwn/image/upload/v1644530140/velvet_bnv6vj.jpg" alt="Velvet Web App">
-                <figcaption>Velvet Web App</figcaption>
-              </figure>
-            </div>
             <div class="col-sm">
               <h3>Velvet<br />Webpage for Velvet app </h3>
               <p>
@@ -130,11 +133,17 @@
               </p>
               <a class="button" href="https://velvet-frontend.herokuapp.com/"> Read More</a>
             </div>
+            <div class="col-sm">
+              <figure>
+                <img src="https://res.cloudinary.com/dswechkwn/image/upload/v1644530140/velvet_bnv6vj.jpg" alt="Velvet Web App">
+                <figcaption>Velvet Web App</figcaption>
+              </figure>
+            </div>
           </div>
         </div>
       </section>
       <!--project 3-->
-      <section class="projects">
+      <section class="projects blue">
         <div class="container">
           <div class="row">
             <div class="col-sm">
@@ -148,13 +157,13 @@
               <p>
                 Backend programmed with Ruby on Rails. All CRUD funcionality available and search/filter, etc.
               </p>
-              <a href="https://velvet-backend.herokuapp.com/api/v1/players"> Read More</a>
+              <a class="button" href="https://velvet-backend.herokuapp.com/api/v1/players"> Read More</a>
             </div>
           </div>
         </div>
       </section>
 
-    <footer>
+    <footer id="contact">
       <p>Get in touch</p>
       <ul id="lista">
         <li><a href="https://www.linkedin.com/in/denise-hermoza/"><i class="fab fa-linkedin"></i></a></li>
@@ -162,7 +171,6 @@
         <li><a href="https://www.instagram.com/dhermoza91"><i class="fab fa-instagram big"></i></a></li>
         <li><a href="https://m.facebook.com/denise.hermoza"><i class="fab fa-facebook big"></i></a></li>
       </ul>
-      <p>designed and developed by Denise Hermoza 2022</p>
     </footer>
 </body>
 </html>

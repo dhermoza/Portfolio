@@ -6,7 +6,7 @@ body {
   font-size: 40px;
 }
 
-h1, h2, .skills-list  {
+h1, h2 {
   font-family: 'Source Sans 3', sans-serif;
 }
 
@@ -28,6 +28,16 @@ nav ul li {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 25px;
+}
+
+nav li a {
+  text-decoration:  none;
+  color: black;
+}
+
+nav li a:hover {
+  color: black;
+  text-decoration: underline;
 }
 
 body, ul {
@@ -64,8 +74,9 @@ h1 {
 
 .skills-list li {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'Source Sans 3', sans-serif;
+  line-height: 150%;
 }
 
 ul li {
@@ -83,11 +94,12 @@ ul li {
   padding: 20px;
   margin-top: 40px;
   font-size: 25px;
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
 }
 .button:hover {
   font-weight: bold;
-  color: black;
-  background-color: #DBEBF4;
+  color: white;
+  background-color: black;
   border: 1px solid white;
 }
 
@@ -102,7 +114,7 @@ figcaption {
 }
 
 .section {
-  margin-bottom: 40px;
+  padding-bottom:50px;
 }
 
 .section p {
@@ -120,15 +132,16 @@ p {
 }
 
 footer {
-  padding-top:10px;
+  padding-top:50px;
   text-align: center;
 }
 
 .skills {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .projects {
+  padding-top:50px;
   padding-bottom: 50px;
 }
 .projects h3 {
@@ -147,6 +160,30 @@ footer {
   line-height: 150%;
 }
 
+.blue {
+  background-color: #DBEBF4;
+}
+
+.projects .button {
+  border-radius: 50px ;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 15px;
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.projects .button:hover {
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.right-allignment {
+  text-align: right;
+}
 #intro {
   display: flex;
   justify-content: center;
@@ -171,6 +208,11 @@ footer {
 #lista > li {
   list-style-type: none;
   padding-left:50px;
+  font-size: 40px;
+}
+
+#lista li a:hover {
+  color: black;
 }
 
 /*
